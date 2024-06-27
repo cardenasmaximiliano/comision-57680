@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- ctrl + k + c  -->
+         <!--todas estas etiquetas se consideran etiquetas contenedoras.-->
+         <!-- las etiquetas de primer orden, son etiquetas que si o si tienen 
+          que estar en nuestro. Son etiquetas que se declaran solamente una vez 
+          que no pueden estar unas dentro de las otras-->
+        <header></header> <!--etiqueta de encabezado
+        y nos sirve para alojar informacion como el logo de nuestro sitio, 
+        nos sirve para alojar la barra de navegacion y algun otro elemento-->
+        <main></main> <!-- corresponde al cuerpo de nuestro sitio, y se dice
+        que la etiqueta main aloja la informacion que esta directamente relacionada
+        a nuestro sitio web-->
+        <footer></footer> <!--corresponde al pie de pagina. derechos de autor
+        redes sociales, etc -->
+        
+        <!--puede estar o no -->
+        <aside></aside> <!--se conoce principalmente por alojar informacion 
+        que no esta directamente relacionada al sitio, ejemplo publicidades.-->
+
+        <!-- etiquetas de segundo orden 
+        se pueden repetir tantas veces como sea necesario y si se pueden alojar
+        unas dentro de otras, nesting. 
+        -->
+        <section></section> <!--section, hace referencia a una seccion importante 
+        de nuestro sitio-->
+        <article></article> <!--article, es una etiqueta contenedora, que agrupa informacion
+        de tipo noticia informativo, blogs imagen con titulo y un texto-->
+        <div></div> <!--se considera una etiqueta generica, y solamente cumple
+        la funcion de agrupar informacion, porque SEO no la reconoce.-->
+        
+        <!-- etiquetas de contenido -->
+
+        <p>generar texto dentro de nuestro sitio</p>
+
+        <!--etiquetas para los titulos, heading tags, o las H -->
+        <h1></h1> <!--solamente puede escribirse una vez x html-->
+        <h2></h2> <!-- se pueden escribir los que sean necesarios
+        hace referencia al  subtitulos, y tienen la particularidad de ser jerarquicos -->
+        <h3></h3>
+        <h4></h4>
+        <h5></h5>
+        <h6></h6>
+
+
+        <h1  id="top">aca tenes un titulo</h1>
+        
+        <h2>autos</h2>
+            <h3>cruze</h3>
+                <h4>lt</h4>
+                <h4>premier</h4>
+            <h3>onix</h3>
+        <h2>pick up</h2>
+
+
+        <!-- listas ordenadas y desordenadas
+        una lista nos va a agrupar informacion, que puede ser secuencial o simplemente me agrupan acciones 
+        -->
+
+        <ol>
+            <li>calentar el agua</li>
+            <li>poner el dolca en la tasita</li>
+            <li>poner un chorrito de agua en la tasita y revolver</li>
+            <li>generar como si fuera una pasta, y luego poner mas agua</li>
+        </ol>
+
+        <ul>
+            <li>cafe instantaneo</li>
+            <li>taza</li>
+            <li>pava</li>
+            <li>chocolate</li>
+        </ul>
+
+        <!-- comentario para hacer las cosas mas rapido
+            
+            etiqueta * cantidad de etiquetas
+
+            shift + alt + flechita
+        -->
+        
+        <!--listas de definicion, glosarios diccionarios-->
+
+        <dl>
+            <dt>coderhouse</dt>
+            <dd>un instituto para aprender programacion</dd>
+            <dt>maxi</dt>
+            <dd>un copado</dd>
+        </dl>
+
+        <!-- enlace etiqueta a => etiqueta ancla, anchor, o A
+            es la etiqueta que me permite interactuar con sitios externos(absolutos), dentro de nuestra pagina o 
+            interacturar con otros archivos de mi sitio 
+        -->
+
+        <!--enlace absoluto-->
+        <a href="https://www.facebook.com/" target="_blank">facebook</a>
+
+        <!--enlace relativo, me permite comunicarme con otras paginas interna de mi sitio-->
+        
+        <!--enlaces internos-->
+        <a href="#top">ir al top</a>
+
+        <!--multimedia-->
+
+        <img src="../assets/img/pikachu.png" alt="">
+        <img src="https://images.unsplash.com/photo-1719430074740-a5ee49a67d45?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="persona con mochila mirando a la izquierda">
+
+        <audio src="../assets/audio/audio.mp3" controls></audio>
+        <video src="../assets/video/schnauzer.mp4" controls></video>
+
+        <!--iframe => lo que me trae es fragmentos de otros sitios-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zivfiabn2kM?si=VdikIyZd69tmsbf5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Zivfiabn2kM?si=-mNt4aovwqYeqa_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4MdbPf2h9dvCASJzPvwKQR?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3738.8459312935584!2d-57.55048162077162!3d-38.000877036272946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d90268566de1%3A0x3c4a34ef63a511c7!2sBas%C3%ADlica%20de%20los%20Santos%20Pedro%20y%20Cecilia!5e0!3m2!1ses!2sar!4v1719501102959!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+</html>
