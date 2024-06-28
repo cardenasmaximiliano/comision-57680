@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p>+5492235...</p>
+        <nav>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">about us</a></li>
+                <li><a href="">productos</a></li>
+            </ul>   
+        </nav>
+    </header>
+    <aside>
+        <ul>
+            <li><a href=""><img src="./assets/img/facebook.png" alt=""></a></li>
+            <li><a href=""><img src="./assets/img/facebook.png" alt=""></a></li>
+            <li><a href=""><img src="./assets/img/facebook.png" alt=""></a></li>
+        </ul>
+    </aside>
+    <main>
+        <form action="">
+            <!-- <fieldset>
+                <legend>datos personales</legend>
+            </fieldset> -->
+            <label for=""></label> <!--asocia la informacion del input, mejorar la accesibilidad-->
+            <input type="text"> <!--es el campo de entrada de la informacion-->
+
+            <label for="nombre">nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="ingresa tu nombre" required>
+            <label for="pass">contraseña:</label>
+            <input type="password" id="pass" name="pass" placeholder="ingresa tu contraseña" required>
+
+            <label for="masculino">masculino:</label>
+            <input type="radio" id="masculino" name="sexo">
+            <label for="femenino">femenino:</label>
+            <input type="radio" id="femenino" name="sexo">
+
+            <label for="suscribite">acepto termino y condiciones:</label>
+            <input type="checkbox" name="suscribite">
+
+            <label for="curso">selecciona tu curso:</label>
+            <select name="curso" id="curso">
+                <option value="dw">Desarrollo web</option>
+                <option value="js">javascript</option>
+                <option value="react">react</option>
+            </select>
+
+            <input type="date">
+            <input type="time">
+            <label for="texto">Envianos tus comentarios: </label>
+            <textarea name="texto" id="texto" rows="5" cols="60"></textarea>
+       
+            <input type="submit" value="enviar informacion--">
+            <input type="reset">
+        </form>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
