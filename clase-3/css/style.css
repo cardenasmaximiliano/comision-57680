@@ -1,0 +1,87 @@
+p{
+    color: blueviolet;
+}
+/*
+    CSS ES SECUENCIAL POR EN DE SIEMPRE VA A DEVOLVER EL ULTIMO RESULTADO QUE SE LE PASE
+    
+*/
+
+ul{
+   list-style: none;
+   list-style-image: url("../assets/cheque.png");
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    background-color: bisque;
+}
+
+
+main{
+
+}
+main p{
+    color: red;
+}
+
+main section p{
+    color: green;
+}
+
+/*
+las clasess o class se declaran en html y se llaman en css.
+Las clases tienen la particularidad de darle especificidad a una etiqueta, y esta clase se puede repetir
+en cualquier otra parte del codigo.
+
+las class suelen llevar el nombre del bloque de codigo al que hacen referencia
+
+    convenciones => diferentes nomenclaturas.
+
+    pepito el pistolero
+
+    camelCase => pepitoElPistolero
+    kebab => pepito-el-pistolero
+    snake_case => pepito_el_pistolero
+    BEM => lo vamos a ver mas adelante.
+
+
+*/
+/* #idParrafoUno{
+    background-color: rgb(128, 124, 0);
+} */
+
+.seccionParrafoUno{
+    background-color: black;
+} 
+.seccionParrafoUno  h2{
+    background-color: rgb(241, 251, 49);
+}
+.seccionParrafoUno  p{
+    color:#FF4191;
+    text-align: justify;
+    text-indent: 10px;
+   
+}
+/*
+el id, a diferencia de la clase, es un selector unico e irrepetible.
+
+
+
+
+*/
+
+
+
+h1{
+    color: red;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: -5px -5px 10px black;
+}
+
+.h1Nosotros{
+    color: blue;
+}
