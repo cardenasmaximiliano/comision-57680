@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/*
+los colores que elegimos de la paleta
+
+las tipografias
+    font-family: "Anton SC", sans-serif;
+    font-family: "Roboto", sans-serif;
+
+*/
+
+
+
+
+
+
+/*
+medidas en css: 
+
+medidas relativas y otras medidas absolutas.
+
+medidas absolutas => son aquellas medidas que no se modifican frente a los diferentes tamaños de pantalla.
+pixel => es la medida por excelencia para la creacion de sitios web, es una medida absoluta.
+
+
+medidas relativas => son relativas al tamaño de pantalla en donde se abra la pagina.
+
+% => nos ayuda a nosotros a un contenedor adaptarlo automaticamente a las diferentes pantallas. el % va de 0 100%
+
+rem => toma de tamaño base a la fuente raiz del documento.
+
+1rem => 16px
+
+em => toma de base no al tamaño de fuente raiz, si no que toma de fuente a la etiqueta contenedora.
+
+
+vw => viewWidth hace refencia al tamaño de la pantalla donde se abra el sitio
+vh => viewHeight 
+*/
+
+/* html{
+    font-size: 16px;
+} */
+
+/*
+    16px => 100%;
+    10px => ?  62.5 
+
+*/
+
+
+
+/* section{
+    /* delimitar ancho y alto**/
+    /* width: 100vw;
+    height: 100vh; 
+    /* height: 31.25rem; 
+    background-color: lightblue;
+    font-size: 1.5rem;
+} */
+
+/**medidas relativas para el width
+
+    rem o px
+
+**/
+
+/* section p{
+    font-size: 1.5em;
+   
+} */
+
+section h1{
+    font-family: "Anton SC", sans-serif;
+}
+section p{
+    font-family: "Roboto", sans-serif;
+    font-size: 1.875rem;
+    font-weight: lighter;
+    display: inline;
+}
+
+
+section{
+    width: 100%;
+    height: 31.25rem; /**/
+    background-image: url("../assets/img/living.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+}
+
+/**box modeling
+
+modelo de caja => nos dice que cualquier etiqueta html funciona como una caja. Y ESA CAJA puede crecer internamente
+tener un limite establecido y tener un espacio externo que se comunica con el resto de las etiquetas.
+
+**/
+
+button{
+    display: block;
+    /*crecer internamente**/
+    /* padding: 20px; */
+    /* padding-top:30px ;
+    padding-right: 10px ;
+    padding-bottom: 15px;
+    padding-left: 20px ; */
+    /* padding: 20px 30px 10px 20px; */
+    padding: 20px 30px;
+
+    /* el limite de mi elemento**/
+    /* border: 3px solid red ; */
+    border-top: 3px solid blue;
+
+    /*
+    border-width;
+    border-style
+    border-color
+    */
+/* 
+    margin: 30px; */
+    /* margin-top: 20px;
+    margin-right: .625rem;
+    margin-bottom: 5px;
+    margin-left: 1.25rem; */
+    /* margin: 20px 10px 20px 5px; */
+    margin: 30px 20px ;
+
+    border-radius: 20px 10px 50% 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+/**
+    en css decimos que tenemos etiquetas que por naturaleza son de bloque o de linea
+
+    las etiquetas en bloque son aquella que por defecto ocupan el 100% del ancho del navegador
+
+    Las etiquetas en linea, son aquella que solamente ocupan el espacio de su contenido.
+
+
+    las etiquetas en bloque o en linea pueden cambiar su estado a traves de una propiedad llamada display
+**/
+
+ul li{
+    display: inline;
+}
